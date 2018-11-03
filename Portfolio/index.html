@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Portfolio Idriss</title>
+  </head>
+  <body>
+    <header>
+      <div class="row navrow">
+        <div  class="navbar navbar_no_display twelve columns">
+          <div class="nav six columns offset-by-three">
+            <ul class="navb">
+              <li class="three columns"><a href="#home" id="home">Home</a></li>
+              <li class="three columns"><a href="#about" id="about">About</a></li>
+              <li class="three columns"><a href="#projects" id="projects">Projects</a></li>
+              <li class="three columns"><a href="#contact" id="contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+            <div id="navbar" class="navbar_show twelve columns">
+                <div class="nav six columns offset-by-three">
+                    <ul class="navb">
+                        <li class="three columns"><a href="#home" id="home_2">Home</a></li>
+                        <li class="three columns"><a href="#about" id="about_2">About</a></li>
+                        <li class="three columns"><a href="#projects" id="projects_2">Projects</a></li>
+                        <li class="three columns"><a href="#contact" id="contact_2">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <div class="navbar-m twelve columns">
+                    <label id="menu-burger">
+                        <hr></hr>
+                        <hr></hr>
+                        <hr></hr>
+                    </label>
+                    <div id="navbar-m" class="navbar">
+                        <a href="#" class="cross"></a>
+                        <button onclick="specificScroll1()" id="Over-Mij" class="navbar-item">Over Mij</button>
+                        <button onclick="specificScroll2()" class="navbar-item">Mijn Projecten</button>
+                        <button onclick="specificScroll3()" class="navbar-item">Mijn Doelen</button>
+                        <button onclick="specificScroll4()" class="navbar-item">Contact</button>
+                        <div id="hiddendiv"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="row">
+        <div class="twelve columns wallpaper" id="home_img">
+          <h1 class="name six columns offset-by-three">Idriss El Mellaoui</h1>
+          <button type="button" name="button" class="button-start two columns offset-by-five" id="start-btn">Start<br><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+          <div class="two columns offset-by-five">
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="row" id="about1">
+    </div>
+    <div class="container">
+      <div class="row row-top">
+          <div class="twelve columns">
+              <div class="six columns">
+                  <h1 class="title four columns offset-by-four" id="about_title">About Me</h1>
+                  <p class="paragraph twelve columns offset-by-twos">I am Idriss El Mellaoui and i am <span id="leeftijd"> </span> years old. I am a student at Mediacollege Amsterdam. I study Media Development there. I learn Javascript, HTML5, CSS3 and PHP. I also learn to work with Laravel and Wordpress.</p>
+              </div>
+              <div class="six columns">
+                  <div class="two columns offset-by-four">
+                      <img class="my_Image" src="images/photo.png" alt="ik">
+                  </div>
+              </div>
+          </div>
+        </div>
+          <div class="row row-top">
+              <div class="twelve columns">
+                      <h1 class="title ">Skills</h1>
+                  <div class="twelve columns">
+                       <p class="pf">I am learning the following programming languages:</p>
+                  </div>
+                  <div class="twelve columns bl">
+                      <img class="skills_img" src="images/html.png" alt="html5">
+                      <img class="skills_img" src="images/css3.png" alt="css3">
+                      <img class="skills_img" src="images/js.png" alt="js">
+                      <img class="skills_img" src="images/php.png" alt="php">
+                      <img class="skills_img" src="images/jquery.png" alt="jquery">
+                  </div>
+              </div>
+          </div>
+        <div class="row twelve columns">
+            <div class="eight columns offset-by-two">
+                <h1 class="title four columns offset-by-four" id="projects_title">Projects</h1>
+            </div>
+        </div>
+          <div class="row row-top">
+              <h1 class="title two columns offset-by-five">The Wall</h1>
+              <div class="twelve columns row-top">
+                  <div class="six columns">
+                      <a href="http://22193.hosts.ma-cloud.nl/ma/bewijzenmap/periode1.3/proj/The%20WALL/homepage.php"><img class="projects_img" src="images/TheWall.jpg" alt="project img"></a>
+                  </div>
+                  <div class="six columns">
+                      <p class="paragraph">This is my first big project that i made at my school. Its called The Wall. The purpose of this project was to make a website like instagram. A social media website where people could share their pictures. It was a lot off backend progamming
+                      . I used php, html, css, jquery and js in this project</p>
+                  </div>
+              </div>
+              <div class="row row-top">
+                  <div class="six columns row-top">
+                      <a href="http://22193.hosts.ma-cloud.nl/ma/bewijzenmap/periode1.3/proj/The%20WALL/register.php"><img class="projects_img" src="images/TheWallRegister.png" alt="project img"></a>
+                  </div>
+                  <div class="six columns row-top">
+                      <a href="http://22193.hosts.ma-cloud.nl/ma/bewijzenmap/periode1.3/proj/The%20WALL/login.php"><img class="projects_img" src="images/TheWallLogin.png" alt="project img"></a>
+                  </div>
+              </div>
+        </div>
+                <div class="row contact_row row-top">
+                    <h1 class="title" id="contact_title">Contact Me!</h1>
+                    <form class="contact_form row-top" action="sendmail.php" method="post">
+                        <div class="twelve columns">
+                            <div class="six columns">
+                                <label for="name" class="input_label">Name</label>
+                                <input type="text" name="name" placeholder="Name" id="name" maxlength="80">
+                            </div>
+                            <div class="six columns">
+                                <label for="email" class="input_label">E-mail</label>
+                                <input type="email" name="email" placeholder="Email" id="email" maxlength="120">
+                            </div>
+                        </div>
+                        <div class="twelve columns">
+                            <label for="comment" class="input_label">Message</label>
+                            <textarea name="comment" class="comment" placeholder="Message" id="comment" rows="14"></textarea>
+                        </div>
+                        <div class="two columns offset-by-five">
+                            <input type="submit" name="submit" value="Send" class="form_submit">
+                        </div>
+                    </form>
+                </div>
+        </div>
+             <div class="row row-top">
+                 <div class="twelve columns">
+                     <div class="ten columns offset-by-one">
+                         <div class="inf four columns offset-by-four">
+                             <p class="p pf pl pl1">GitHub: <a href="https://github.com/22193"><img class="footer_img" src="images/GitHub-Mark-120px-plus.png" alt="Github"></a></p>
+                             <p class="p pf">LinkedIn: <a href="https://github.com/22193"><img class="footer_img" src="images/linkedin.png" alt="Github"></a></p>
+                         </div>
+                     </div>
+                     <div class="four columns offset-by-four">
+                         <p class="pf">Copyright © <span><script type="text/javascript"> document.write(new Date().getFullYear());</script></span> Idriss El Mellaoui</p>
+                     </div>
+                 </div>
+             </div>
+        <script src="js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            jQuery('#start-btn').click(function(e){
+                $('html, body').stop().animate({ scrollTop: $('#about1').offset().top}, 500);
+                e.preventDefault();
+            });
+            jQuery('#home').click(function(e){
+                $('html, body').stop().animate({ scrollTop: $('#home_img').offset().top}, 500);
+                e.preventDefault();
+            });
+
+            jQuery('#about').click(function(e){
+                  $('html, body').stop().animate({ scrollTop: $('#about_title').offset().top}, 500);
+                  e.preventDefault();
+                });
+
+            jQuery('#projects').click(function(e){
+                $('html, body').stop().animate({ scrollTop: $('#projects_title').offset().top}, 500);
+                e.preventDefault();
+            });
+
+            jQuery('#contact').click(function(e){
+                $('html, body').stop().animate({ scrollTop: $('#contact_title').offset().top}, 500);
+                e.preventDefault();
+            });
+            jQuery('#home_2').click(function(e){
+                $('html, body').stop().animate({ scrollTop: $('#home_img').offset().top}, 500);
+                e.preventDefault();
+            });
+
+            jQuery('#about_2').click(function(e){
+                $('html, body').stop().animate({ scrollTop: $('#about_title').offset().top}, 500);
+                e.preventDefault();
+            });
+
+            jQuery('#projects_2').click(function(e){
+                $('html, body').stop().animate({ scrollTop: $('#projects_title').offset().top}, 500);
+                e.preventDefault();
+            });
+
+            jQuery('#contact_2').click(function(e){
+                $('html, body').stop().animate({ scrollTop: $('#contact_title').offset().top}, 500);
+                e.preventDefault();
+            });
+
+            $( ".cross" ).hide();
+            $( "#navbar-m" ).hide();
+            $('#menu-burger').click(function() {
+                $('#navbar-m').slideToggle("smooth", function() {
+                    $('#menu-burger').hide();
+                    $( ".cross" ).show();
+                });
+            });
+            $( ".cross" ).click(function() {
+                $('#navbar-m').slideToggle("smooth", function() {
+                    $( ".cross" ).hide();
+                    $('#menu-burger').show();
+                });
+            });
+
+        //     let myInterval;
+        // $('#start-btn').click(function() {
+        //
+        //     let AutoScroll = function () {
+        //         let iScroll = $(window).scrollTop();
+        //         iScroll = iScroll + 500;
+        //         $('html, body').animate({scrollTop: iScroll}, 1000);
+        //     }
+        //     AutoScroll();
+        //     myInterval = setInterval(AutoScroll, 2000);
+        //     let iScroll = $(document).scrollTop();
+        //     if (iScroll === $(window).height()) {
+        //         clearInterval(myInterval);
+        //     }
+        // });
+            });
+      </script>
+  </body>
+</html>
